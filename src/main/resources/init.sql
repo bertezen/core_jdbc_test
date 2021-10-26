@@ -1,0 +1,7 @@
+-- create schema if not exists test;
+-- use test;
+--
+-- drop table if exists student;
+-- create table users(id BIGINT PRIMARY KEY AUTO_INCREMENT, name VARCHAR(80), lastName VARCHAR(100), age INTEGER);
+--
+-- INSERT into users(name, lastName, age) value (alex, surAlex, 10);

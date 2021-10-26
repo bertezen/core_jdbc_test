@@ -1,6 +1,6 @@
-import jm.task.core.jdbc.model.User;
-import jm.task.core.jdbc.service.UserService;
-import jm.task.core.jdbc.service.UserServiceImpl;
+import core.jdbc.model.User;
+import core.jdbc.service.UserService;
+import core.jdbc.service.UserServiceImpl;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -9,9 +9,9 @@ import java.util.List;
 public class UserServiceTest {
     private final UserService userService = new UserServiceImpl();
 
-    private final String testName = "Ivan";
-    private final String testLastName = "Ivanov";
-    private final byte testAge = 5;
+    private final String testName = "John";
+    private final String testLastName = "Wick";
+    private final Integer testAge = 40;
 
 
     @Test
